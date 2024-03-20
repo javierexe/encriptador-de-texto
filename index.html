@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+    <head>
+
+    </head>
+    <body>
+        <header>
+            <div class="encabezado">
+                <img src="imagenes/Logo.png" height="64">
+                <h1>Encriptador de texto</h1>
+            </div>
+        </header>
+        
+        <main>
+            <section id="pantallaDividida">
+                <div class="izquierda">
+                    <div class="encabezado2">
+                        <p>Ingresa aquí el texto a encriptar :</p>
+                    </div>
+                    <div class="cajaTexto">
+                        <textarea id="cajaIngresoTexto" onclick="limpiarCaja()"></textarea>
+                    </div>
+                    <div class="botones">
+                            <button id="encriptar" onclick="encriptarTexto()">Encriptar</button>
+                            <button id="desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
+                    </div>
+                </div>
+                <div class="derecha">
+                    <div class="encabezado2">
+                        <p>Texto encriptado :</p>
+                    </div>
+                    <div class="cajaTexto">
+                        <textarea id="cajaTextoEncriptado" disabled></textarea>
+                    </div>
+                    <div class="botones">
+                        <button id="copiar" style="display: none;" onclick="copiarTexto()">Copiar</button>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <footer>
+            <p>by javierexe</p>
+
+        </footer>
+
+        <script src="app.js" defer></script>
+    </body>
+</html>

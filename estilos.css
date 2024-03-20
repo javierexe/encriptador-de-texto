@@ -1,0 +1,145 @@
+.encabezado{
+    background-color: cadetblue;
+    font-size: 24px;
+    color: aliceblue;
+    width: 98%;
+    height: 8vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: left; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    flex-direction: row;
+    margin: auto;
+}
+
+#pantallaDividida{
+    display: flex;
+}
+
+.izquierda{
+background-color: darkslategray;
+border-style: solid;
+border-color: black;;
+}
+
+.encabezado2 {
+    height: fit-content;
+}
+
+    .izquierda p{
+        color: goldenrod;
+        font-size: 18px;
+        text-align: justify;
+        margin: 5% 5% 0;
+        }
+
+    .cajaTexto {
+    height: 90%;
+    margin: 2%;
+    }
+
+.derecha{
+    background: url(imagenes/Muñeco.png);
+    background-color: slategray;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    }
+    
+    .derecha p{
+        color: darkblue;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: justify;
+        margin: 5% 5% 0;
+    }
+    
+.izquierda, .derecha{
+    width: 47.5%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: 10px 10px;
+    justify-content: center;
+    }
+    
+
+.botones {
+    height: 50px;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    flex-direction: row;
+    margin: 10%;
+}
+
+    .botones button{
+        height: 50px;
+        width: 130px;
+        margin: 5% 4%;
+        color: aliceblue;
+        font-size: 100%;
+        background-color: blue;
+        border-style: solid;
+        border-color: whitesmoke;
+        border-radius: 20px;
+    }
+
+footer{
+    background-color: black;
+    font-size: medium;
+    text-align: center;
+    color: aliceblue;
+    height: 8vh;
+    width: 98%;
+    border-radius: 20px;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    flex-direction: row;
+    margin: auto;
+}
+
+footer p{
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+
+#cajaIngresoTexto{
+    background-color: darkslategray;
+    color: aliceblue;
+    border: none;
+    font-size: 18px;
+    text-align: justify;
+    height: 100%;
+    width: 93%;
+    padding: 3%;
+    overflow-y: auto;
+}
+
+#cajaTextoEncriptado{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 18px;
+    text-align: justify;
+    height: 100%;
+    width: 93%;
+    padding: 3%;
+    overflow-y: auto;
+    -webkit-user-select: none;/* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* estándar */
+}
+
+
+ul{
+    flex-direction: row;
+    width: 940px;
+    margin: 0 auto;
+}
